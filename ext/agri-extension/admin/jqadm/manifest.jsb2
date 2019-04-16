@@ -1,0 +1,22 @@
+{
+	"projectName": "agri-extension",
+	"licenseText": "proprietary",
+	"pkgs": [{
+		"name": "agri-extension CSS",
+		"file": "agri-extension.css",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.css",
+			"path": "themes/"
+		}]
+	}, {
+		"name": "agri-extension JS",
+		"file": "agri-extension.js",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.js",
+			"path": "themes/"
+		}]
+	}],
+	"resources" : []
+}
